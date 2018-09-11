@@ -19,11 +19,13 @@ ul, li {
 }
 a {
 	color: orange;
-	text-decoration: none;
+	text-decoration: underline;
 }
-a:hover, a:focus {
-	color: #3397db;
-	text-decoration: none;
+
+a:hover, a:focus, #restaurants-list li a:hover, #restaurants-list li a:focus, .filter-options select:focus, .filter-options select:hover {
+	color: #FFFFFF;
+  text-decoration: underline;
+  background-color: #007dbb;
 }
 a img{
 	border: none 0px #fff;
@@ -47,7 +49,7 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
 
 #footer {
   background-color: #444;
-  color: #aaa;
+  color: #b1b1b1;
   font-size: 8pt;
   letter-spacing: 1px;
   padding: 25px;
@@ -96,7 +98,7 @@ nav h1 a {
 
 /* Add a color to all links inside the list */
 #breadcrumb li a {
-    color: #0275d8;
+    color: #006cc9;
     text-decoration: none;
 }
 
@@ -114,7 +116,7 @@ nav h1 a {
 /* ====================== Restaurant Filtering ====================== */
 .filter-options {
   width: 100%;
-  background-color: #3397DB;
+  background-color: #007dbb;
   align-items: center;
   padding-top: 10px;
   display: flex;
@@ -173,7 +175,7 @@ color:#FFFFFF;
   min-width: 100%;
 }
 #restaurants-list li h1 {
-  color: #f18200;
+  color: #b56000;
   font-family: Arial,sans-serif;
   font-size: 1.2em;
   font-weight: 200;
@@ -188,14 +190,14 @@ color:#FFFFFF;
   margin-left: 10px;
 }
 #restaurants-list li a {
-  background-color: orange;
+  background-color: #a66900;
   border-bottom: 3px solid #eee;
-  color: #fff;
+  color: #ffffff;
   display: inline-block;
   font-size: 1.2em;
   margin: 15px;
   text-align: center;
-  text-decoration: none;
+  text-decoration: underline;
   text-transform: uppercase;
   min-width:48px;
   min-height: 48px;
@@ -221,7 +223,7 @@ color:#FFFFFF;
   width: 100%;
 }
 #restaurant-name {
-  color: #f18200;
+  color: #d57200;
   font-family: Arial,sans-serif;
   font-size: 20pt;
   font-weight: 200;
@@ -276,7 +278,7 @@ color:#FFFFFF;
   padding: 0px 40px;
 }
 #reviews-container h2 {
-  color: #f58500;
+  color: #d57200;
   font-size: 2.4em;
   font-weight: 300;
   letter-spacing: -1px;
